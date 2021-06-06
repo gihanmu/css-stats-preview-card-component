@@ -24,25 +24,22 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  height: auto;
+
   padding: 1em;
   justify-content: space-around;
   background-color: var(--dark-blue);
   border-radius: 5%;
   text-align: center;
-  
 }
 
 .content {
   margin: 1em 0;
 }
-
 
 .header-img {
   background-color: var(--white-transparent-1);
@@ -53,7 +50,6 @@ body {
 .header-txt {
   width: 65%;
   margin: 1em auto;
-  
 }
 
 .tagline {
@@ -66,9 +62,9 @@ body {
 
 .footer {
   display: flex;
-  margin: 2em auto;
   flex-direction: column;
- align-items: center;
+  align-items: center;
+  
 }
 
 .social-media {
@@ -89,7 +85,6 @@ body {
   .card {
     flex-direction: row-reverse;
     align-items: center;
-    height: auto;
     border-radius: 1%;
     margin: 1em;
   }
@@ -99,7 +94,6 @@ body {
   }
 
   .content {
-    
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -118,5 +112,12 @@ body {
     display: flex;
     justify-content: space-evenly;
   }
-  
 }
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    margin: 2em auto;
+  }
+}
+
+
